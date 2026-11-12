@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: No secret in the bundle
+        run: npm run check:bundle
+        env:
+          MOONETIX_LINK_SALT: test_link_salt_not_secret
+          MOONETIX_POSTBACK_KEY: test_postback_key_not_secret
