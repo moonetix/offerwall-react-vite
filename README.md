@@ -9,7 +9,7 @@
 [![Get keys](https://img.shields.io/badge/get%20keys-moonetix.com-004ABB)](https://moonetix.com/register?from=github-offerwall-react-vite)
 [![Maintained by Moonetix](https://img.shields.io/badge/maintained%20by-Moonetix-004ABB)](https://moonetix.com)
 
-[Moonetix](https://moonetix.com) is a pay-per-result affiliate network: your users earn your own currency by completing offers, and you earn per completed offer. A Vite app is static files, so something has to hold the link hash salt and the postback key. Here that is `server/`, about 500 lines on `node:http` and `node:sqlite`, with no npm packages.
+[Moonetix](https://moonetix.com) is an affiliate network: your users earn your own currency by completing offers, and you earn per completed offer. A Vite app is static files, so something has to hold the link hash salt and the postback key. Here that is `server/`, about 500 lines on `node:http` and `node:sqlite`, with no npm packages.
 
 > **Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-react-vite**
 
