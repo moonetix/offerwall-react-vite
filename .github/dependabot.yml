@@ -6,10 +6,18 @@ updates:
       interval: weekly
     groups:
       react:
-        patterns: ["react", "react-dom"]
+        patterns:
+          - react
+          - react-dom
       vite:
-        patterns: ["vite", "@vitejs/*"]
+        patterns:
+          - vite
+          - '@vitejs/*'
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: monthly
+    groups:
+      actions:
+        patterns:
+          - "*"
