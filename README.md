@@ -6,12 +6,11 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-offerwall%20link-004ABB)](https://docs.moonetix.com/offerwall-link)
 [![Guide](https://img.shields.io/badge/academy-React%20guide-004ABB)](https://moonetix.com/academy/integrations/nextjs-react-offerwall)
-[![Get keys](https://img.shields.io/badge/get%20keys-moonetix.com-004ABB)](https://moonetix.com/register?from=github-offerwall-react-vite)
 [![Maintained by Moonetix](https://img.shields.io/badge/maintained%20by-Moonetix-004ABB)](https://moonetix.com)
 
 [Moonetix](https://moonetix.com) is an affiliate network: your users earn your own currency by completing offers, and you earn per completed offer. A Vite app is static files, so something has to hold the link hash salt and the postback key. Here that is `server/`, about 500 lines on `node:http` and `node:sqlite`, with no npm packages.
 
-> **Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-react-vite**
+> To run it you need your Moonetix App ID and keys: see [Get your keys](#get-your-keys).
 
 ## What is in the box
 
@@ -150,9 +149,9 @@ With Moonetix, once the server is reachable over https:
 - Moonetix for [web apps](https://moonetix.com/industries/web-apps) and [websites](https://moonetix.com/integrations/website)
 - Tools: [offerwall link builder](https://moonetix.com/tools/offerwall-link-builder), [postback hash checker](https://moonetix.com/tools/postback-hash-checker)
 
-## Start earning
+## Get your keys
 
-**Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-react-vite**
+Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-react-vite
 
 Every publisher application is reviewed by hand. Once you are approved, add your site, set your currency, and paste the keys into `.env`.
 
